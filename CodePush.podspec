@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   # Note: Even though there are copy/pasted versions of some of these dependencies in the repo, 
   # we explicitly let CocoaPods pull in the versions below so all dependencies are resolved and 
   # linked properly at a parent workspace level.
-  # ls.dependency 'React'
+  ls.dependency 'React'
   # ls.dependency 'SSZipArchive', '~> 2.1'
   # ls.dependency 'JWT', '~> 3.0.0-beta.7'
   # ls.dependency 'Base64', '~> 1.1'
